@@ -1,0 +1,27 @@
+{
+  "name": "bukoli/bukoli-php",
+  "type": "library",
+  "description": "Bukoli Php Api",
+  "keywords": ["bukoli", "api", "soap"],
+  "require": {
+    "php": ">=5.3.3",
+    "ext-soap": "*"
+  },
+  "homepage": "http://www.bukoli.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bukoli",
+      "homepage": "http://www.bukoli.com"
+    }
+  ],
+  "require-dev": {
+    "mockery/mockery": "~0.9",
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bukoli\\": "src/"
+    }
+  }
+}

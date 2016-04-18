@@ -1,0 +1,1240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="index, follow, all" />
+    <title>Bukoli\Model\IntegrationOrderInfo | API</title>
+
+            <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../../css/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="../../css/sami.css">
+        <script src="../../js/jquery-1.11.1.min.js"></script>
+        <script src="../../js/bootstrap.min.js"></script>
+        <script src="../../js/typeahead.min.js"></script>
+        <script src="../../sami.js"></script>
+        <meta name="MobileOptimized" content="width">
+        <meta name="HandheldFriendly" content="true">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    
+    
+    </head>
+
+    <body id="class" data-name="class:Bukoli_Model_IntegrationOrderInfo" data-root-path="../../">
+            <div id="content">
+        <div id="left-column">
+                <div id="control-panel">
+                <form id="search-form" action="../../search.html" method="GET">
+            <span class="glyphicon glyphicon-search"></span>
+            <input name="search"
+                   class="typeahead form-control"
+                   type="search"
+                   placeholder="Search">
+        </form>
+    </div>
+
+                <div id="api-tree"></div>
+
+        </div>
+        <div id="right-column">
+                <nav id="site-nav" class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-elements">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../../index.html">API</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-elements">
+                <ul class="nav navbar-nav">
+                    <li><a href="../../classes.html">Classes</a></li>
+                                            <li><a href="../../namespaces.html">Namespaces</a></li>
+                                        <li><a href="../../interfaces.html">Interfaces</a></li>
+                    <li><a href="../../traits.html">Traits</a></li>
+                    <li><a href="../../doc-index.html">Index</a></li>
+                    <li><a href="../../search.html">Search</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+                        <div class="namespace-breadcrumbs">
+            <ol class="breadcrumb">
+                <li><span class="label label-default">class</span></li>
+                                                            <li><a href="../../Bukoli.html">Bukoli</a></li>
+                                        <li><a href="../../Bukoli/Model.html">Model</a></li>
+    
+                <li>IntegrationOrderInfo</li>
+            </ol>
+        </div>
+                <div id="page-content">
+                
+    <div class="page-header">
+        <h1>IntegrationOrderInfo</h1>
+    </div>
+
+    <p>    class
+    <strong>IntegrationOrderInfo</strong>        extends <a href="../../Bukoli/Model/Model.html"><abbr title="Bukoli\Model\Model">Model</abbr></a>
+</p>
+
+    
+    
+    
+            <h2>Properties</h2>
+
+            <table class="table table-condensed">
+                    <tr>
+                <td class="type" id="property_RequestOrderId">
+                                                                                
+    string
+                </td>
+                <td>$RequestOrderId</td>
+                <td class="last">Müşteri Sipariş No</td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_ParentRequestOrderId">
+                                                                                
+    string
+                </td>
+                <td>$ParentRequestOrderId</td>
+                <td class="last">Parçalı gönderim ise, bu siparişin bağlı olduğu ana sipariş no
+Boş gönderilmesi durumunda RequestOrderId alanı buraya otomatik yazılır.</td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_EndUserData">
+                                                                                
+    <a href="../../Bukoli/Model/IntegrationEndUserInfo.html"><abbr title="Bukoli\Model\IntegrationEndUserInfo">IntegrationEndUserInfo</abbr></a>
+                </td>
+                <td>$EndUserData</td>
+                <td class="last">Son Kullanıcı</td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_IntegrationOrderDetailInfoArr">
+                                                                                
+    <a href="../../Bukoli/Model/IntegrationOrderDetailInfo.html"><abbr title="Bukoli\Model\IntegrationOrderDetailInfo">IntegrationOrderDetailInfo</abbr></a>[]
+                </td>
+                <td>$IntegrationOrderDetailInfoArr</td>
+                <td class="last">Kutuların Detay Bilgisi</td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_SelectedJetonPointCode">
+                                                                                
+    string
+                </td>
+                <td>$SelectedJetonPointCode</td>
+                <td class="last">Haritadan seçilmiş olan Bukoli noktasının kodu</td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_CustomerServicePassword">
+                                                                                
+    string
+                </td>
+                <td>$CustomerServicePassword</td>
+                <td class="last">Size özel verdiğimiz şifre</td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_InvoiceNo">
+                                                                                
+    string
+                </td>
+                <td>$InvoiceNo</td>
+                <td class="last">Siparişin Fatura Nosu</td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_IrsaliyeNo">
+                                                                                
+    string
+                </td>
+                <td>$IrsaliyeNo</td>
+                <td class="last">Siparişin Irsaliye nosu</td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_OrderDate">
+                                                                                
+    string
+                </td>
+                <td>$OrderDate</td>
+                <td class="last">YYYYMMDDHHMMSS formatında.</td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_OrderAmount">
+                                                                                
+    string
+                </td>
+                <td>$OrderAmount</td>
+                <td class="last">Siparişin kuruş olarak ederi
+Örneğin 100 TL -> 10000 Kuruş</td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_CargoAmount">
+                                                                                
+    string
+                </td>
+                <td>$CargoAmount</td>
+                <td class="last">siparişte kargo tutarı olarak müşteriye yansıtılan tutarın kuruş olarak ederi
+Örneğin 5 TL -> 500 Kuruş</td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_PromotionCodes">
+                                                                                
+    string[]
+                </td>
+                <td>$PromotionCodes</td>
+                <td class="last">Müşteriye yapılan Bukoli özelinde bir kampanya var ise kodları</td>
+                <td></td>
+            </tr>
+                    <tr>
+                <td class="type" id="property_ReservedFields">
+                                                                                
+    string[]
+                </td>
+                <td>$ReservedFields</td>
+                <td class="last">Müşteri bazlı Entegrasyonlarda gerekli olan bilgi aktarımları içindir.</td>
+                <td></td>
+            </tr>
+            </table>
+
+    
+            <h2>Methods</h2>
+
+            <div class="container-fluid underlined">
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    array
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_toArray">toArray</a>()
+                                            <p>Converts Model to array for Soap Request</p>                </div>
+                <div class="col-md-2"><small>from&nbsp;<a href="../../Bukoli/Model/Model.html#method_toArray"><abbr title="Bukoli\Model\Model">Model</abbr></a></small></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getRequestOrderId">getRequestOrderId</a>()
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setRequestOrderId">setRequestOrderId</a>(
+    string $RequestOrderId)
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getParentRequestOrderId">getParentRequestOrderId</a>()
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setParentRequestOrderId">setParentRequestOrderId</a>(
+    string $ParentRequestOrderId)
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    <a href="../../Bukoli/Model/IntegrationEndUserInfo.html"><abbr title="Bukoli\Model\IntegrationEndUserInfo">IntegrationEndUserInfo</abbr></a>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getEndUserData">getEndUserData</a>()
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setEndUserData">setEndUserData</a>(
+    <a href="../../Bukoli/Model/IntegrationEndUserInfo.html"><abbr title="Bukoli\Model\IntegrationEndUserInfo">IntegrationEndUserInfo</abbr></a> $EndUserData)
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    <a href="../../Bukoli/Model/IntegrationOrderDetailInfo.html"><abbr title="Bukoli\Model\IntegrationOrderDetailInfo">IntegrationOrderDetailInfo</abbr></a>[]
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getIntegrationOrderDetailInfoArr">getIntegrationOrderDetailInfoArr</a>()
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setIntegrationOrderDetailInfoArr">setIntegrationOrderDetailInfoArr</a>(
+    array $IntegrationOrderDetailInfoArr)
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getSelectedJetonPointCode">getSelectedJetonPointCode</a>()
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setSelectedJetonPointCode">setSelectedJetonPointCode</a>(
+    string $SelectedJetonPointCode)
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getCustomerServicePassword">getCustomerServicePassword</a>()
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getInvoiceNo">getInvoiceNo</a>()
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setInvoiceNo">setInvoiceNo</a>(
+    string $InvoiceNo)
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getIrsaliyeNo">getIrsaliyeNo</a>()
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setIrsaliyeNo">setIrsaliyeNo</a>(
+    string $IrsaliyeNo)
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getOrderDate">getOrderDate</a>()
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setOrderDate">setOrderDate</a>(
+    string $OrderDate)
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getOrderAmount">getOrderAmount</a>()
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setOrderAmount">setOrderAmount</a>(
+    string $OrderAmount)
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    string
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getCargoAmount">getCargoAmount</a>()
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setCargoAmount">setCargoAmount</a>(
+    string $CargoAmount)
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    string[]
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getPromotionCodes">getPromotionCodes</a>()
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setPromotionCodes">setPromotionCodes</a>(
+    string[] $PromotionCodes)
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    string[]
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getReservedFields">getReservedFields</a>()
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    
+    
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_setReservedFields">setReservedFields</a>(
+    string[] $ReservedFields)
+                                            <p class="no-description">No description</p>
+                                    </div>
+                <div class="col-md-2"></div>
+            </div>
+            </div>
+
+
+        <h2>Details</h2>
+
+            <div id="method-details">
+                    <div class="method-item">
+                    <h3 id="method_toArray">
+        <div class="location">in <a href="../../Bukoli/Model/Model.html#method_toArray"><abbr title="Bukoli\Model\Model">Model</abbr></a> at line         line 39</div>
+        <code>final                    
+    array
+    <strong>toArray</strong>()</code>
+    </h3>
+    <div class="details">
+                    <div class="method-description">
+                                    <p>Converts Model to array for Soap Request</p>                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>
+    array</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getRequestOrderId">
+        <div class="location">at line         line 109</div>
+        <code>                    
+    string
+    <strong>getRequestOrderId</strong>()</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>
+    string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setRequestOrderId">
+        <div class="location">at line         line 117</div>
+        <code>                    
+    
+    <strong>setRequestOrderId</strong>(
+    string $RequestOrderId)</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>
+    string</td>
+                <td>$RequestOrderId</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getParentRequestOrderId">
+        <div class="location">at line         line 125</div>
+        <code>                    
+    string
+    <strong>getParentRequestOrderId</strong>()</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>
+    string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setParentRequestOrderId">
+        <div class="location">at line         line 133</div>
+        <code>                    
+    
+    <strong>setParentRequestOrderId</strong>(
+    string $ParentRequestOrderId)</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>
+    string</td>
+                <td>$ParentRequestOrderId</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getEndUserData">
+        <div class="location">at line         line 141</div>
+        <code>                    
+    <a href="../../Bukoli/Model/IntegrationEndUserInfo.html"><abbr title="Bukoli\Model\IntegrationEndUserInfo">IntegrationEndUserInfo</abbr></a>
+    <strong>getEndUserData</strong>()</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>
+    <a href="../../Bukoli/Model/IntegrationEndUserInfo.html"><abbr title="Bukoli\Model\IntegrationEndUserInfo">IntegrationEndUserInfo</abbr></a></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setEndUserData">
+        <div class="location">at line         line 149</div>
+        <code>                    
+    
+    <strong>setEndUserData</strong>(
+    <a href="../../Bukoli/Model/IntegrationEndUserInfo.html"><abbr title="Bukoli\Model\IntegrationEndUserInfo">IntegrationEndUserInfo</abbr></a> $EndUserData)</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>
+    <a href="../../Bukoli/Model/IntegrationEndUserInfo.html"><abbr title="Bukoli\Model\IntegrationEndUserInfo">IntegrationEndUserInfo</abbr></a></td>
+                <td>$EndUserData</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getIntegrationOrderDetailInfoArr">
+        <div class="location">at line         line 157</div>
+        <code>                    
+    <a href="../../Bukoli/Model/IntegrationOrderDetailInfo.html"><abbr title="Bukoli\Model\IntegrationOrderDetailInfo">IntegrationOrderDetailInfo</abbr></a>[]
+    <strong>getIntegrationOrderDetailInfoArr</strong>()</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>
+    <a href="../../Bukoli/Model/IntegrationOrderDetailInfo.html"><abbr title="Bukoli\Model\IntegrationOrderDetailInfo">IntegrationOrderDetailInfo</abbr></a>[]</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setIntegrationOrderDetailInfoArr">
+        <div class="location">at line         line 167</div>
+        <code>                    
+    
+    <strong>setIntegrationOrderDetailInfoArr</strong>(
+    array $IntegrationOrderDetailInfoArr)</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>
+    array</td>
+                <td>$IntegrationOrderDetailInfoArr</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+            
+                            <h4>Exceptions</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td><a href="../../Bukoli/Exception/Exception.html"><abbr title="Bukoli\Exception\Exception">Exception</abbr></a></td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getSelectedJetonPointCode">
+        <div class="location">at line         line 180</div>
+        <code>                    
+    string
+    <strong>getSelectedJetonPointCode</strong>()</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>
+    string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setSelectedJetonPointCode">
+        <div class="location">at line         line 188</div>
+        <code>                    
+    
+    <strong>setSelectedJetonPointCode</strong>(
+    string $SelectedJetonPointCode)</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>
+    string</td>
+                <td>$SelectedJetonPointCode</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getCustomerServicePassword">
+        <div class="location">at line         line 196</div>
+        <code>                    
+    string
+    <strong>getCustomerServicePassword</strong>()</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>
+    string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getInvoiceNo">
+        <div class="location">at line         line 204</div>
+        <code>                    
+    string
+    <strong>getInvoiceNo</strong>()</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>
+    string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setInvoiceNo">
+        <div class="location">at line         line 212</div>
+        <code>                    
+    
+    <strong>setInvoiceNo</strong>(
+    string $InvoiceNo)</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>
+    string</td>
+                <td>$InvoiceNo</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getIrsaliyeNo">
+        <div class="location">at line         line 220</div>
+        <code>                    
+    string
+    <strong>getIrsaliyeNo</strong>()</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>
+    string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setIrsaliyeNo">
+        <div class="location">at line         line 228</div>
+        <code>                    
+    
+    <strong>setIrsaliyeNo</strong>(
+    string $IrsaliyeNo)</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>
+    string</td>
+                <td>$IrsaliyeNo</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getOrderDate">
+        <div class="location">at line         line 236</div>
+        <code>                    
+    string
+    <strong>getOrderDate</strong>()</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>
+    string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setOrderDate">
+        <div class="location">at line         line 244</div>
+        <code>                    
+    
+    <strong>setOrderDate</strong>(
+    string $OrderDate)</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>
+    string</td>
+                <td>$OrderDate</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getOrderAmount">
+        <div class="location">at line         line 253</div>
+        <code>                    
+    string
+    <strong>getOrderAmount</strong>()</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>
+    string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setOrderAmount">
+        <div class="location">at line         line 261</div>
+        <code>                    
+    
+    <strong>setOrderAmount</strong>(
+    string $OrderAmount)</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>
+    string</td>
+                <td>$OrderAmount</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getCargoAmount">
+        <div class="location">at line         line 269</div>
+        <code>                    
+    string
+    <strong>getCargoAmount</strong>()</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>
+    string</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setCargoAmount">
+        <div class="location">at line         line 277</div>
+        <code>                    
+    
+    <strong>setCargoAmount</strong>(
+    string $CargoAmount)</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>
+    string</td>
+                <td>$CargoAmount</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getPromotionCodes">
+        <div class="location">at line         line 285</div>
+        <code>                    
+    string[]
+    <strong>getPromotionCodes</strong>()</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>
+    string[]</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setPromotionCodes">
+        <div class="location">at line         line 293</div>
+        <code>                    
+    
+    <strong>setPromotionCodes</strong>(
+    string[] $PromotionCodes)</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>
+    string[]</td>
+                <td>$PromotionCodes</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_getReservedFields">
+        <div class="location">at line         line 301</div>
+        <code>                    
+    string[]
+    <strong>getReservedFields</strong>()</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td>
+    string[]</td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method_setReservedFields">
+        <div class="location">at line         line 309</div>
+        <code>                    
+    
+    <strong>setReservedFields</strong>(
+    string[] $ReservedFields)</code>
+    </h3>
+    <div class="details">
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>
+    string[]</td>
+                <td>$ReservedFields</td>
+                <td></td>
+            </tr>
+            </table>
+
+            
+            
+            
+                    </div>
+    </div>
+
+            </div>
+            </div>
+
+    
+            </div>
+                <div id="footer">
+        Generated by <a href="http://sami.sensiolabs.org/">Sami, the API Documentation Generator</a>.
+    </div>
+
+        </div>
+    </div>
+    </body>
+
+</html>
