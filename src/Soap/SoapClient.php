@@ -3,12 +3,6 @@
 namespace Bukoli\Soap;
 
 use Bukoli\Bukoli;
-use Bukoli\Model\Response\IntegrationResultInfo;
-use Bukoli\Model\Response\JetonOrderStatusDetailInfo;
-use Bukoli\Model\Response\ResultInfo;
-use Bukoli\Response\OrderInsertResponse;
-use Bukoli\Response\OrderStatusDetailGetResponse;
-use Bukoli\Response\OrderSummaryInsertResponse;
 
 class SoapClient implements ClientInterface
 {
@@ -22,12 +16,12 @@ class SoapClient implements ClientInterface
         'cache_wsdl'   => WSDL_CACHE_BOTH,
         'features'     => SOAP_SINGLE_ELEMENT_ARRAYS,
         'classmap'     => [
-            'OrderSummaryInsertResponse'   => OrderSummaryInsertResponse::class,
-            'ResultInfo'                   => ResultInfo::class,
-            'OrderInsertResponse'          => OrderInsertResponse::class,
-            'IntegrationResultInfo'        => IntegrationResultInfo::class,
-            'OrderStatusDetailGetResponse' => OrderStatusDetailGetResponse::class,
-            'JetonOrderStatusDetailInfo'   => JetonOrderStatusDetailInfo::class,
+            'OrderSummaryInsertResponse'   => 'Bukoli\Response\OrderSummaryInsertResponse',
+            'ResultInfo'                   => 'Bukoli\Model\Response\ResultInfo',
+            'OrderInsertResponse'          => 'Bukoli\Response\OrderInsertResponse',
+            'IntegrationResultInfo'        => 'Bukoli\Model\Response\IntegrationResultInfo',
+            'OrderStatusDetailGetResponse' => 'Bukoli\Response\OrderStatusDetailGetResponse',
+            'JetonOrderStatusDetailInfo'   => 'Bukoli\Model\Response\JetonOrderStatusDetailInfo',
         ]
     ];
 

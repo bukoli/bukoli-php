@@ -4,7 +4,7 @@
   "description": "Bukoli Php Api",
   "keywords": ["bukoli", "api", "soap"],
   "require": {
-    "php": ">=5.3.3",
+    "php": ">=5.4",
     "ext-soap": "*"
   },
   "homepage": "http://www.bukoli.com",

@@ -15,7 +15,8 @@ class Model
     final protected function checkRequiredFields()
     {
         foreach ($this->getRequiredFields() as $requiredField) {
-            if (empty($this->getAttribute($requiredField))) {
+            $value = $this->getAttribute($requiredField);
+            if (empty($value)) {
                 throw new RequiredFieldException($requiredField);
             }
         }
