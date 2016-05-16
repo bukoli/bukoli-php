@@ -35,6 +35,8 @@ require_once('/path/to/bukoli/BukoliBootstrap.php');
 * [OrderInsert](https://github.com/bukoli/bukoli-php/blob/master/samples/OrderInsertSample.php)
 * [OrderSummaryInsert](https://github.com/bukoli/bukoli-php/blob/master/samples/OrderSummaryInsertSample.php)
 * [OrderStatusDetailGet](https://github.com/bukoli/bukoli-php/blob/master/samples/OrderStatusDetailGetSample.php)
+* [JetonPointStateGet](https://github.com/bukoli/bukoli-php/blob/master/samples/JetonPointStateGetSample.php)
+* [PointsStatesList](https://github.com/bukoli/bukoli-php/blob/master/samples/PointsStatesListSample.php)
 
 ## Getting Started
 
