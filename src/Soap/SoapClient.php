@@ -23,6 +23,9 @@ class SoapClient implements ClientInterface
             'OrderStatusDetailGetResponse' => 'Bukoli\Response\OrderStatusDetailGetResponse',
             'JetonOrderStatusDetailInfo'   => 'Bukoli\Model\Response\JetonOrderStatusDetailInfo',
             'JetonPointStateGetResponse'   => 'Bukoli\Response\JetonPointStateGetResponse',
+            'PointsStatesListResponse'     => 'Bukoli\Response\PointsStatesListResponse',
+            'PointsStatesListResult'       => 'Bukoli\Model\Response\PointsStatesListResult',
+            'PointStateInfo'               => 'Bukoli\Model\Response\PointStateInfo',
         ]
     ];
 

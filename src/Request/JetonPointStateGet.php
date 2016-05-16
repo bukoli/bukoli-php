@@ -4,7 +4,6 @@ namespace Bukoli\Request;
 
 use Bukoli\Exception\RequiredFieldException;
 use Bukoli\Response\JetonPointStateGetResponse;
-use Bukoli\Response\OrderStatusDetailGetResponse;
 
 class JetonPointStateGet extends Request implements RequestInterface
 {
@@ -21,7 +20,7 @@ class JetonPointStateGet extends Request implements RequestInterface
     protected $response = null;
 
     /**
-     * @return \Bukoli\Model\Response\JetonOrderStatusDetailInfo
+     * @return string
      * @throws \Exception
      */
     public function request()
